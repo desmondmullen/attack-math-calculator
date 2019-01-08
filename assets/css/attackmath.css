@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bungee Inline', cursive;
+    font-size: large;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.player-section { /*data inputs for players 1-4*/
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: medium;
+    width: 30vw;
+    margin-left: 35vw;
+    align-content: center;
+    background-color: darkslategray;
+    color: #d1d1d1; /*white*/
+}
+
+.text-input, .number-input {
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+    text-align: left;
+    background-color: #d1d1d1; /*white*/
+    color: black;
+    margin: 0 auto;
+    padding: 0px 5px;
+    border-bottom-color: black;
+}
+
+#results {
+    width: 90%;
+}
+
+.red-text {
+    font-color: red;
+}
+
+b {
+    font-weight: bold;
+}
+
+.number-input {
+text-align: right;
+}
+
+button {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FF0000; /*red*/
+    box-shadow: 5px 5px 2px 2px black;
+}
+
+#title {
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#copyright {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    color: #d1d1d1;
+    padding: 10px;
+}
+a {
+    color: #d1d1d1;
+}
+
+@media only screen and (max-width: 670px) {
+    .player-section { /*data inputs for players 1-4*/
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: medium;
+    width: 90vw;
+    margin-left: 5vw;
+    align-content: center;
+    background-color: darkslategray;
+    color: #d1d1d1; /*white*/
+}
+    #copyright {
+        font-size: xx-small;
+        padding: 5px;
+    }
+}
