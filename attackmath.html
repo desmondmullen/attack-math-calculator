@@ -15,37 +15,46 @@
 
 <body>
     <section id="title">Star Wars RPG Attack Math Calculator</section>
-    <section><button id="run-scenarios">Run Scenarios</button></section>
+    <section><button id="run-scenarios">Run Scenarios</button><br><br><input id="verbose" type="checkbox" name="verbose"
+            value="verbose">verbose output <input id="no-damage" type="checkbox" name="no-damage" value="no-damage"
+            checked>no
+        damage on winning*<p>*in the demo video, the player receives no damage in a round where he/she defeats the
+            enemy. There is no mention of this in the video or in the assignment's instructions (and it doesn't make
+            sense), but if you watch very carefully you can see that this is what is happening. Thanks to Marcia Moss
+            for spotting that.</p><br>
+        The names and numbers that auto-load below<br>correspond to the assignment's demo video.
+    </section>
     <section id="player1" class="player-section">
-        Name: <input id="player1-name" type="text" class="text-input" class="text-input" name="player1-name" size="25"><br>
+        Name: <input id="player1-name" type="text" class="text-input" class="text-input" name="player1-name" size="25"
+            value="Obi-Wan Kenobi"><br>
         Health Points: <input id="player1-health" type="text" class="number-input" name="player1-health" maxlength="4"
-            size="4"><br>
+            size="4" value="120"><br>
         Attack Points: <input id="player1-attack" type="text" class="number-input" name="player1-attack" maxlength="4"
-            size="4">
+            size="4" value="8">
     </section>
     <br>
     <section id="player2" class="player-section">
-        Name: <input id="player2-name" type="text" class="text-input" name="player2-name" size="25"><br>
+        Name: <input id="player2-name" type="text" class="text-input" name="player2-name" size="25" value="Luke Skywalker"><br>
         Health Points: <input id="player2-health" type="text" class="number-input" name="player2-health" maxlength="4"
-            size="4"><br>
+            size="4" value="100"><br>
         Attack Points: <input id="player2-attack" type="text" class="number-input" name="player2-attack" maxlength="4"
-            size="4">
+            size="4" value="5">
     </section>
     <br>
     <section id="player3" class="player-section">
-        Name: <input id="player3-name" type="text" class="text-input" name="player3-name" size="25"><br>
+        Name: <input id="player3-name" type="text" class="text-input" name="player3-name" size="25" value="Darth Sidious"><br>
         Health Points: <input id="player3-health" type="text" class="number-input" name="player3-health" maxlength="4"
-            size="4"><br>
+            size="4" value="150"><br>
         Attack Points: <input id="player3-attack" type="text" class="number-input" name="player3-attack" maxlength="4"
-            size="4">
+            size="4" value="20">
     </section>
     <br>
     <section id="player4" class="player-section">
-        Name: <input id="player4-name" type="text" class="text-input" name="player4-name" size="25"><br>
+        Name: <input id="player4-name" type="text" class="text-input" name="player4-name" size="25" value="Darth Maul"><br>
         Health Points: <input id="player4-health" type="text" class="number-input" name="player4-health" maxlength="4"
-            size="4"><br>
+            size="4" value="180"><br>
         Attack Points: <input id="player4-attack" type="text" class="number-input" name="player4-attack" maxlength="4"
-            size="4">
+            size="4" value="25">
     </section>
     <br>
     <section class="player-section">
