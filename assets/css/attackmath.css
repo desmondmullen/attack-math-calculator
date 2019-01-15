@@ -14,8 +14,15 @@ section {
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
     width: 70%;
+    text-align: center;
     margin: 0 auto;
+}
+
+.instructions {
+color: red;
+font-weight: bold;
 }
 
 .player-section { /*data inputs for players 1-4*/
@@ -45,7 +52,7 @@ p {
 }
 
 .red-text {
-    font-color: red;
+    font-color: #FF0000; /*red*/
 }
 
 b {
@@ -66,6 +73,8 @@ button {
     border-radius: 10px;
     background-color: #FF0000; /*red*/
     box-shadow: 5px 5px 2px 2px black;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #title {
