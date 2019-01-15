@@ -13,8 +13,6 @@ Below are the instructions from the assignment:
 
 ### Option Two: Star Wars RPG Game (Challenge)
 
-![Star Wars](Images/2-StarWars.jpg)
-
 1. [Watch the demo](https://youtu.be/klN2-ITjRt8).
 
 2. Here's how the app works:
