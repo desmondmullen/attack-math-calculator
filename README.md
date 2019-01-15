@@ -1,6 +1,8 @@
 # attack-math-calculator
 **TLDR: The instructions for Assignment 4 (jQuery) should be modified to correspond to the demo video or the video modified to match the instructions. The game in the demo video does not deduct health points from the player on a round where the enemy is defeated. This is not mentioned in the video or the instructions but makes all the difference in meeting the goal of making it so every player can possibly win.**
 
+**The health and attack numbers used in the demo video - even with the no-deduct-on-win math - do not allow every player to win. With the numbers used, there is no scenario in which Luke Skywalker can win. Run the scenarios in the calculator to see for yourself!**
+
 
 My curiosity was piqued when the instructions for UNC Full Stack Bootcamp's assignment 4 (jQuery) said that, "[each player] should be able to win and lose the game no matter what character they choose. The challenge should come from picking the right enemies, not choosing the strongest player." I tried testing different scenarios and quickly realized that to truly run the numbers, I needed a tool. So, I made one.
 
